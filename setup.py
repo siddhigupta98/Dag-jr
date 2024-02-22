@@ -9,6 +9,8 @@ setup(
         "boto3",
         "pandas",
         "matplotlib",
+         "wordcloud",
+
     ],
     extras_require={"dev": ["dagster-webserver", "pytest"]},
 )
